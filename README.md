@@ -2,7 +2,7 @@
 
 This repo contains code that I wrote while learning Go. I decided to learn Go mainly to see what all the hype around it is. I know that it's supposedly very performant but unfortunately many people say that its not the easiest code to write and might be more C like. Will I like Go by the end of this journey? Maybe not but it will definetly easier for me to know Go when the time comes for me to need to write it cause the signs of a project refactor using Go are there sadly.
   
-<img src="https://media1.tenor.com/m/XXyXCrGg6nkAAAAC/hyunrmin.gif" alt="crying" width=500 height=600>
+<img src="https://media1.tenor.com/m/XXyXCrGg6nkAAAAC/hyunrmin.gif" alt="crying">
 
 Very amazing beginning to the project I've already messed up the modules! It seems like this directory should have been a module hopefully its an easy fix!
 
