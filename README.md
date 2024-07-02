@@ -2,7 +2,10 @@
 
 This repo contains code that I wrote while learning Go. I decided to learn Go mainly to see what all the hype around it is. I know that it's supposedly very performant but unfortunately many people say that its not the easiest code to write and might be more C like. Will I like Go by the end of this journey? Maybe not but it will definetly easier for me to know Go when the time comes for me to need to write it cause the signs of a project refactor using Go are there sadly.
 
-<img src="https://tenor.com/view/hyunrmin-gif-26449057" alt="crying" width=500 height=600>
+<div class="tenor-gif-embed" data-postid="26449057" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+    <a href="https://tenor.com/view/hyunrmin-gif-26449057">Hyunrmin GIF</a>from <a href="https://tenor.com/search/hyunrmin-gifs">Hyunrmin GIFs</a>
+</div> 
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 Very amazing beginning to the project I've already messed up the modules! It seems like this directory should have been a module hopefully its an easy fix!
 
