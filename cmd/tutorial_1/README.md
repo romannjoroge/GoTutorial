@@ -25,7 +25,7 @@ go build <location-of-go-file>
 ```
 
 ## Some more details about packages, modules and imports
-(Source Article)[https://www.alexedwards.net/blog/an-introduction-to-packages-imports-and-modules]
+[Source Article](https://www.alexedwards.net/blog/an-introduction-to-packages-imports-and-modules)
 
 So packages are just collections of related code that help one in the reuse of code. I'm guessing one imports code from packages throughout the project. Packages contain go files and each of these files indicate at the top what package it belongs to. This is giving the impression that a single folder could have files from multiple different packages? This is abit odd but will confirm later!.
 
