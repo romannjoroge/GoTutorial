@@ -111,7 +111,7 @@ On the other hand you can use the case like normal and give it a variable and th
 switch <variable> {
     case <value1>:
         // Do Stuff
-    case <value2>:
+    case <value2>, <value3>: // This means execute if variable is either value2 or value 3
         // Do stuff
     default:
         // Do stuff
