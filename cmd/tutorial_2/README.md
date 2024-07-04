@@ -60,5 +60,60 @@ func <func_name> (<varname> type, <varname2> type, ...) {
 }
 ```
 
+Functions in Go can also return multiple things. Functions in most languages can also do this but it seems especially important in Go since people return errors rather than throwing them! So in a function that can encounter an error you would typically see in the list of return types the error type. An example
+
+```go
+func <funcname> (args) (return-type1, return_type2 ...) {
+    // Function body
+
+}
+```
+
+So if such a function encounters something that would in other languages throw an error you instead return it and if there is no error you return a non initialized variable of type error or nil. An example of this is found in the code.
+
+To create an error first import the `errors` package and run the `errors.New(<description_of_err>)` function. To view the error messages of an error object run the `error.Error()` function.
 
 
+### If statements
+
+So in a similar fashion to python the conditions in if statements are not wrapped in (). An example of an if condition would be:
+
+```go
+if condition1 {
+    // Body
+} else if condition2 {
+    // Body
+} else {
+    // Condition
+}
+```
+
+### Switch statement
+
+Abit of an odd one is switch. I don't think I've seen this syntax before but it is definetly interesting and could save alot of boilerplate. One can use a switch without giving it a value to look at i.e
+
+```go
+switch {
+    case cond1:
+        // Do stuff
+    case cond2:
+        // Do stuff
+    default:
+        // Do stuff
+}
+```
+
+One interesting thing about this is that it allows the conditions to be looking at different variables for example cond1 could be checking if x < 3, cond2 could be checking if y > 2 and so on. It acts exactly the same way as if-else if-else. Also the break at the end of each case is optional resulting in much cleaner code.
+
+On the other hand you can use the case like normal and give it a variable and the cases to look at possible values of the variable i.e
+
+```go
+switch <variable> {
+    case <value1>:
+        // Do Stuff
+    case <value2>:
+        // Do stuff
+    default:
+        // Do stuff
+}
+```
