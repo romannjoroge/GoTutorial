@@ -15,7 +15,7 @@ var myArr [3]int
 var <arrayName> [array-size]arrayElemType = [array-size]arrayElemType{elements...} // Give initial value
 var myArray2 [3]int = [3]int{1, 2, 3}
 
-var := [arraySize]arrayElemType{elements....}
+var := [arraySize]arrayElemType{elements....} 
 ```
 
 Thank God Go has an implementation of growable arrays called Slices. Slices add the functionality of being able to append values to it. An example of how to create a slice
@@ -24,7 +24,7 @@ Thank God Go has an implementation of growable arrays called Slices. Slices add 
 var <slice-name> []ArrayElemType = []{elements...}
 
 // To append to a slice use the append function
-var mySlice := []int{1, 2, 3}
+mySlice := []int{1, 2, 3} // When you use := there is no need to use var keyword
 mySlice = append(mySlice, 4)
 ```
 
@@ -96,3 +96,6 @@ Typical for loop that we all love and are used to:
 for i:=0; condition with i; i++ {
     // Stuff
 }
+```
+
+The examples from this tutorial can be found at the mini_project_1 folder!
