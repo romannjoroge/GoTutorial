@@ -19,7 +19,7 @@ const <varname> = value // For constants you have to give an inital value
 var <varname1>, <varname2> <type> = <value1>, <value2> // you can also define multiple variables in one line and this can have the different variations shown above
 ```
 
-This might be similar to C but you can do arithmetic operations between values of different types i.e you can't add an int to a float and stuff like that. If you do need to do this though you can type cast which is done by using the name of the type as a function which is similar to how Python does it I think. An example is:
+This might be similar to C but you can't do arithmetic operations between values of different types i.e you can't add an int to a float and stuff like that. If you do need to do this though you can type cast which is done by using the name of the type as a function which is similar to how Python does it I think. An example is:
 
 ```go
 var num1 int = 10
